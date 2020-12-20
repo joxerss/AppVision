@@ -20,13 +20,15 @@
 		AC436056256D2B2800918EEC /* ConvertExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436055256D2B2800918EEC /* ConvertExtensions.swift */; };
 		AC436059256D2B8E00918EEC /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436058256D2B8E00918EEC /* UIViewController+Keyboard.swift */; };
 		AC43605D256D2C4300918EEC /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43605C256D2C4300918EEC /* FileManager.swift */; };
-		AC436075256D34F200918EEC /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436074256D34F200918EEC /* VisionViewController.swift */; };
 		AC43608D256D364600918EEC /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43608C256D364600918EEC /* Material.swift */; };
 		AC436090256D369200918EEC /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43608F256D369200918EEC /* MainCoordinator.swift */; };
 		AC436093256D3B8F00918EEC /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC436092256D3B8F00918EEC /* Vision.framework */; };
-		AC436097256D421A00918EEC /* ReceiptContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC436096256D421A00918EEC /* ReceiptContents.swift */; };
-		AC43609D256D45F000918EEC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43609C256D45F000918EEC /* Enums.swift */; };
 		AC4360A0256D472100918EEC /* VisionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC43609F256D472000918EEC /* VisionKit.framework */; };
+		ACE5ED06256FCCA90007CF44 /* ReceiptContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5ED05256FCCA90007CF44 /* ReceiptContents.swift */; };
+		ACE5ED09256FCCAF0007CF44 /* RecognizedTextDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5ED08256FCCAF0007CF44 /* RecognizedTextDataSource.swift */; };
+		ACE5ED0C256FCCB50007CF44 /* VisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5ED0B256FCCB50007CF44 /* VisionManager.swift */; };
+		ACE5ED11256FCE8B0007CF44 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5ED10256FCE8B0007CF44 /* VisionViewController.swift */; };
+		ACE5ED15256FDB080007CF44 /* VisionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5ED14256FDB080007CF44 /* VisionCollectionViewCell.swift */; };
 		E8920C649A32D739B257335D /* Pods_AppVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82C45A1C060B4AE3D9D8D18 /* Pods_AppVision.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,13 +49,15 @@
 		AC436055256D2B2800918EEC /* ConvertExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertExtensions.swift; sourceTree = "<group>"; };
 		AC436058256D2B8E00918EEC /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		AC43605C256D2C4300918EEC /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
-		AC436074256D34F200918EEC /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
 		AC43608C256D364600918EEC /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
 		AC43608F256D369200918EEC /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		AC436092256D3B8F00918EEC /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
-		AC436096256D421A00918EEC /* ReceiptContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptContents.swift; sourceTree = "<group>"; };
-		AC43609C256D45F000918EEC /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		AC43609F256D472000918EEC /* VisionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisionKit.framework; path = System/Library/Frameworks/VisionKit.framework; sourceTree = SDKROOT; };
+		ACE5ED05256FCCA90007CF44 /* ReceiptContents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptContents.swift; sourceTree = "<group>"; };
+		ACE5ED08256FCCAF0007CF44 /* RecognizedTextDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizedTextDataSource.swift; sourceTree = "<group>"; };
+		ACE5ED0B256FCCB50007CF44 /* VisionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionManager.swift; sourceTree = "<group>"; };
+		ACE5ED10256FCE8B0007CF44 /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		ACE5ED14256FDB080007CF44 /* VisionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionCollectionViewCell.swift; sourceTree = "<group>"; };
 		D8264374E085AE84697622BB /* Pods-AppVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppVision.release.xcconfig"; path = "Target Support Files/Pods-AppVision/Pods-AppVision.release.xcconfig"; sourceTree = "<group>"; };
 		F82C45A1C060B4AE3D9D8D18 /* Pods_AppVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -139,7 +143,6 @@
 				AC436044256D291700918EEC /* BaseUI */,
 				AC43605B256D2C3100918EEC /* Managers */,
 				AC43604B256D29BF00918EEC /* Extensions */,
-				AC43609C256D45F000918EEC /* Enums.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -169,18 +172,37 @@
 		AC436072256D34BB00918EEC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				AC436073256D34C200918EEC /* Vision */,
+				ACE5ED02256FCC7A0007CF44 /* AI */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		AC436073256D34C200918EEC /* Vision */ = {
+		ACE5ED02256FCC7A0007CF44 /* AI */ = {
 			isa = PBXGroup;
 			children = (
-				AC436074256D34F200918EEC /* VisionViewController.swift */,
-				AC436096256D421A00918EEC /* ReceiptContents.swift */,
+				ACE5ED0B256FCCB50007CF44 /* VisionManager.swift */,
+				ACE5ED04256FCC8A0007CF44 /* Protocols */,
+				ACE5ED03256FCC820007CF44 /* Models */,
+				ACE5ED10256FCE8B0007CF44 /* VisionViewController.swift */,
+				ACE5ED14256FDB080007CF44 /* VisionCollectionViewCell.swift */,
 			);
-			path = Vision;
+			path = AI;
+			sourceTree = "<group>";
+		};
+		ACE5ED03256FCC820007CF44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5ED05256FCCA90007CF44 /* ReceiptContents.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACE5ED04256FCC8A0007CF44 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5ED08256FCCAF0007CF44 /* RecognizedTextDataSource.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,18 +319,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE5ED15256FDB080007CF44 /* VisionCollectionViewCell.swift in Sources */,
 				AC43602E256D1B1E00918EEC /* AppDelegate.swift in Sources */,
+				ACE5ED0C256FCCB50007CF44 /* VisionManager.swift in Sources */,
 				AC436053256D2A7600918EEC /* String+Extensions.swift in Sources */,
-				AC436075256D34F200918EEC /* VisionViewController.swift in Sources */,
 				AC436050256D2A2800918EEC /* UIView+Material.swift in Sources */,
 				AC43608D256D364600918EEC /* Material.swift in Sources */,
+				ACE5ED09256FCCAF0007CF44 /* RecognizedTextDataSource.swift in Sources */,
 				AC436056256D2B2800918EEC /* ConvertExtensions.swift in Sources */,
 				AC436059256D2B8E00918EEC /* UIViewController+Keyboard.swift in Sources */,
-				AC43609D256D45F000918EEC /* Enums.swift in Sources */,
 				AC43605D256D2C4300918EEC /* FileManager.swift in Sources */,
-				AC436097256D421A00918EEC /* ReceiptContents.swift in Sources */,
+				ACE5ED06256FCCA90007CF44 /* ReceiptContents.swift in Sources */,
 				AC436030256D1B1E00918EEC /* SceneDelegate.swift in Sources */,
 				AC436049256D296B00918EEC /* BaseController.swift in Sources */,
+				ACE5ED11256FCE8B0007CF44 /* VisionViewController.swift in Sources */,
 				AC436090256D369200918EEC /* MainCoordinator.swift in Sources */,
 				AC43604D256D29D300918EEC /* Notifications+Extensions.swift in Sources */,
 				AC436048256D296B00918EEC /* BaseNavigationController.swift in Sources */,
